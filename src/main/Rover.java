@@ -16,10 +16,11 @@ public class Rover {
 
     public String move(String cmds) {
         Utilities util = new Utilities();
-        if(!util.validateCommandSeq(cmds.toLowerCase())) {
+        if(!util.validateCommandSeq(cmds.toUpperCase())) {
             throw new IllegalArgumentException();
         }
         for (char cmd : cmds.toCharArray()){
+            //System.out.println("CMD -> " + cmd);
             if(cmd == 'L') {
                 turnLeft(this.direction);
             }
@@ -53,6 +54,7 @@ public class Rover {
     }
 
     public char turnLeft(char currentDirection) {
+        // System.out.println("Current Direction -> " + currentDirection);
         switch(Character.toUpperCase(currentDirection)){
             case 'N':
                 this.direction = 'W';

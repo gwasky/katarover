@@ -34,6 +34,7 @@ public class RoverTest {
     @Before
     public void setUp() throws Exception {
         rover = new Rover(this.currentDirection, new Position(0,0));
+        System.out.println(rover.toString());
     }
 
     @After
@@ -50,13 +51,20 @@ public class RoverTest {
         return Arrays.asList(new Object[][] {
                 {"L",'N',"0|0|W"},
                 {"R",'N',"0|0|E"},
-                {"RR",'N',"0|0|S"}
+                {"RR",'N',"0|0|S"},
+                {"RRR",'N',"0|0|W"},
+                {"LLL",'N',"0|0|E"},
         });
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void exec(){
-        System.out.println("newExpectedPosition -> " + newExpectedPosition );
-        Assert.assertEquals(rover.move(turn),newExpectedPosition);
+        System.out.println("Initializing Rover Position | Turn: " + this.turn + " CurrentDirection : " + this.currentDirection + "| Expected Position " + this.newExpectedPosition);
+        Assert.assertEquals(rover.move(this.turn),newExpectedPosition);
+    }
+
+    @Override
+    public String toString(){
+        return "Initializing Rover Position | Turn: " + this.turn + " Current Direction : " + this.currentDirection;
     }
 }
