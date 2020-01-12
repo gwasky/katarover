@@ -118,6 +118,7 @@ public class Rover {
     }
 
     public void moveBackward(char currentDirection) {
+        // Set X,Y to zero if Mar Min/Max Dimensions are exceeded
         switch(Character.toUpperCase(currentDirection)){
             case 'N':
                 if(this.position.getY() > this.marsDim.getMinY())

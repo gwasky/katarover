@@ -51,8 +51,16 @@ public class RoverTest {
     @Parameterized.Parameters
     public static Collection<Object[]> testConditions(){
         return Arrays.asList(new Object[][] {
+                {"L",'N',"0|0|W"},
+                {"R",'N',"0|0|E"},
+                {"RR",'N',"0|0|S"},
+                {"RRR",'N',"0|0|W"},
+                {"LLL",'N',"0|0|E"},
                 {"FLFF",'N',"2|1|W"},
+                {"FLFF",'S',"2|1|E"},
+                {"FLFFB",'E',"1|1|N"},
                 {"FLFFFB",'N',"2|1|W"},
+                {"FLFFFBBB",'N',"0|1|W"},
                 {"FLFFFFFFFFFFF",'N',"0|1|W"}
         });
     }
@@ -60,7 +68,7 @@ public class RoverTest {
     @Test
     public void exec(){
         System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------");
-        System.out.println("Initializing Rover Position | Command: " + this.command + " CurrentDirection : " + this.currentDirection + "| Expected Position " + this.newExpectedPosition);
+        System.out.println("Initializing Rover Params | Commands: " + this.command + " CurrentDirection : " + this.currentDirection + "| Expected Position " + this.newExpectedPosition);
         Assert.assertEquals(rover.executeCommand(this.command), newExpectedPosition);
     }
 
