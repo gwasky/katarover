@@ -12,7 +12,7 @@ public class MarsDimension {
 
 
     public MarsDimension(){
-        this(0,1,0,1);
+        this(10,0,10,0);
     }
 
     public MarsDimension(int maxX, int minX, int maxY, int minY) {
@@ -52,5 +52,9 @@ public class MarsDimension {
 
     public void setMinY(int minY) {
         this.minY = minY;
+    }
+
+    public String toString(){
+        return "Initializing Mars Max Positions | minX:" + this.getMinX() + " maxX: " + this.getMaxX() + " minY:" + this.getMinY() + " maxY:" + this.getMaxY();
     }
 }

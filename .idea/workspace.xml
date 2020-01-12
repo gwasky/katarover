@@ -67,7 +67,7 @@
       <file leaf-file-name="Position.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="8" selection-start="474" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="714">
+            <state line="7" column="18" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <folding>
                 <element signature="e#232#233#0" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="21" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.42998028" vertical-offset="819" max-vertical-offset="1394">
+            <state line="38" column="42" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.5790476" vertical-offset="342" max-vertical-offset="2652">
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="Utilities.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="10" column="53" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="RoverTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="33" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1292">
+            <state line="58" column="0" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="1309">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,24 +123,24 @@
       <file leaf-file-name="MarsDimension.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/MarsDimension.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1054">
+            <state line="16" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1122">
               <folding>
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,9 +158,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/Earth.java" />
         <option value="$PROJECT_DIR$/src/main/Direction.java" />
-        <option value="$PROJECT_DIR$/src/main/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/Utilities.java" />
         <option value="$PROJECT_DIR$/src/main/Mars.java" />
+        <option value="$PROJECT_DIR$/src/main/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/main/Position.java" />
         <option value="$PROJECT_DIR$/src/main/MarsDimension.java" />
         <option value="$PROJECT_DIR$/src/test/RoverTest.java" />
         <option value="$PROJECT_DIR$/src/main/Rover.java" />
@@ -557,12 +557,12 @@
       <changelist id="70ed8f01-65ac-4af7-981f-e3bfecdd0ddc" name="Default" comment="" />
       <created>1578809168083</created>
       <updated>1578809168083</updated>
-      <workItem from="1578809171149" duration="17447000" />
+      <workItem from="1578809171149" duration="21727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17447000" />
+    <option name="totallyTimeSpent" value="21727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -588,7 +588,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4181626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -631,9 +631,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MarsDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="683" max-vertical-offset="1122">
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="474" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="714">
+        <state line="7" column="18" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <folding>
             <element signature="e#232#233#0" expanded="true" />
             <element signature="e#256#257#0" expanded="true" />
@@ -647,56 +671,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="19" selection-start="1366" selection-end="1394" vertical-scroll-proportion="0.3327869" vertical-offset="103" max-vertical-offset="21012">
+        <state line="10" column="53" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Utilities.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="58" column="19" selection-start="1366" selection-end="1394" vertical-scroll-proportion="0.33333334" vertical-offset="131" max-vertical-offset="21012">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="33" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1292">
+        <state line="58" column="0" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="1309">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MarsDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1054">
-          <folding>
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="21" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.42998028" vertical-offset="819" max-vertical-offset="1394">
+        <state line="38" column="42" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.5790476" vertical-offset="342" max-vertical-offset="2652">
           <folding />
         </state>
       </provider>

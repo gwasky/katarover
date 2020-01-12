@@ -8,7 +8,7 @@ public class Utilities {
 
     public boolean validateCommandSeq(String commands){
         boolean valid = false;
-        if(commands.matches("[LRFB1234567890]+")) valid = true;
+        if(commands.matches("[LRFB]+")) valid = true;
         return valid;
     }
 }

@@ -20,21 +20,23 @@ import java.util.Collection;
 public class RoverTest {
 
     public Rover rover;
-    private MarsDimension mars;
-    private String turn;
+    public MarsDimension marsDimension;
+    private String command;
     private char currentDirection;
     private String newExpectedPosition;
 
-    public RoverTest(String turn, char currentDirection,String newExpectedPosition) {
-        this.turn = turn;
+    public RoverTest(String command, char currentDirection,String newExpectedPosition) {
+        this.command = command;
         this.currentDirection = currentDirection;
         this.newExpectedPosition = newExpectedPosition;
     }
 
     @Before
     public void setUp() throws Exception {
-        rover = new Rover(this.currentDirection, new Position(0,0));
-        System.out.println(rover.toString());
+
+        marsDimension = new MarsDimension();
+        System.out.println( marsDimension.toString());
+        rover = new Rover(this.currentDirection, new Position(0,0), marsDimension);
     }
 
     @After
@@ -49,22 +51,21 @@ public class RoverTest {
     @Parameterized.Parameters
     public static Collection<Object[]> testConditions(){
         return Arrays.asList(new Object[][] {
-                {"L",'N',"0|0|W"},
-                {"R",'N',"0|0|E"},
-                {"RR",'N',"0|0|S"},
-                {"RRR",'N',"0|0|W"},
-                {"LLL",'N',"0|0|E"},
+                {"FLFF",'N',"2|1|W"},
+                {"FLFFFB",'N',"2|1|W"},
+                {"FLFFFFFFFFFFF",'N',"0|1|W"}
         });
     }
 
     @Test
     public void exec(){
-        System.out.println("Initializing Rover Position | Turn: " + this.turn + " CurrentDirection : " + this.currentDirection + "| Expected Position " + this.newExpectedPosition);
-        Assert.assertEquals(rover.move(this.turn),newExpectedPosition);
+        System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("Initializing Rover Position | Command: " + this.command + " CurrentDirection : " + this.currentDirection + "| Expected Position " + this.newExpectedPosition);
+        Assert.assertEquals(rover.executeCommand(this.command), newExpectedPosition);
     }
 
     @Override
     public String toString(){
-        return "Initializing Rover Position | Turn: " + this.turn + " Current Direction : " + this.currentDirection;
+        return "Initializing Rover Position | Turn: " + this.command + " Current Direction : " + this.currentDirection;
     }
 }
