@@ -3,7 +3,7 @@ package main;
 /**
  * Created by Administrator on 1/12/20.
  */
-public class Earth {
+public class MarsDimension {
 
     private int maxX;
     private int minX;
@@ -11,11 +11,11 @@ public class Earth {
     private int minY;
 
 
-    public Earth(){
+    public MarsDimension(){
         this(0,1,0,1);
     }
 
-    public Earth(int maxX, int minX, int maxY, int minY) {
+    public MarsDimension(int maxX, int minX, int maxY, int minY) {
         this.maxX = maxX;
         this.minX = minX;
         this.maxY = maxY;

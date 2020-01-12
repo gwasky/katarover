@@ -1,5 +1,6 @@
 package test;
 
+import main.MarsDimension;
 import main.Position;
 import main.Rover;
 import org.junit.After;
@@ -19,18 +20,20 @@ import java.util.Collection;
 public class RoverTest {
 
     public Rover rover;
-    public Position position;
+    private MarsDimension mars;
     private String turn;
+    private char currentDirection;
     private String newExpectedPosition;
 
-    public RoverTest(String turn, String newExpectedPosition) {
+    public RoverTest(String turn, char currentDirection,String newExpectedPosition) {
         this.turn = turn;
+        this.currentDirection = currentDirection;
         this.newExpectedPosition = newExpectedPosition;
     }
 
     @Before
     public void setUp() throws Exception {
-        rover = new Rover("E", new Position(0,0));
+        rover = new Rover(this.currentDirection, new Position(0,0));
     }
 
     @After
@@ -38,20 +41,22 @@ public class RoverTest {
 
     }
 
+    /***
+     * {DirectionToTurnTo, CurrentDirection, NewDirection}
+     * @return
+     */
     @Parameterized.Parameters
     public static Collection<Object[]> testConditions(){
         return Arrays.asList(new Object[][] {
-                {"L","0|0|W"},
-                {"LR","0|0|N"}
+                {"L",'N',"0|0|W"},
+                {"R",'N',"0|0|E"},
+                {"RR",'N',"0|0|S"}
         });
     }
 
-    @Test
-    public void turnRight(){
+    @Test(expected = IllegalArgumentException.class)
+    public void exec(){
         System.out.println("newExpectedPosition -> " + newExpectedPosition );
         Assert.assertEquals(rover.move(turn),newExpectedPosition);
     }
-
-
-
 }
